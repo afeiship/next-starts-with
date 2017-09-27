@@ -2,7 +2,9 @@
 > String starts with methods.
 
 
-## resources:
-
-## todos:
-- [ ] unit test case
+## usage:
+```js
+nx.startsWith('abc', 'a'); //true
+nx.startsWith('abc', 'b');  //false
+nx.startsWith('abc', 'b', 1); //true
+```
